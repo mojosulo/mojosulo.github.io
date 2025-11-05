@@ -1,0 +1,29 @@
+# _config.yml
+title: mojosulo
+description: >
+  placeholder
+baseurl: ""                     # Leave blank unless the site is in a subfolder
+url: "https://mojosulo.com"  # Replace with your GitHub Pages URL
+
+theme: jekyll-theme-hacker
+
+# Optional metadata
+author:
+  name: mojosulo
+  email: email@mojosulo.com
+
+# Optional Jekyll settings
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Optional GitHub Pages configuration
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
