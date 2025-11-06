@@ -7,3 +7,7 @@ title: Home
 
 This is content.
 
+## Folders:
+---
+[data](data/)
+---
