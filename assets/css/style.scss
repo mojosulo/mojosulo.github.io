@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* === Custom Overrides === */
+
+/* Background */
+body {
+  background-color: #000; /* deeper black */
+}
+
+/* Text */
+body, h1, h2, h3, p {
+  font-family: 'Fira Code', monospace;
+  color: #00ffcc; /* neon hacker green */
+}
+
+/* Links */
+a {
+  color: #ff8800;
+}
+a:hover {
+  color: #fff;
+}
+
