@@ -3,9 +3,11 @@ layout: default
 title: Home
 ---
 
-# Hello world
+---
+# Posts
+{% include posts-list.html %}
 
-This is content.
+
 
 ## Folders:
 ---
