@@ -6,7 +6,8 @@ permalink: /plots/
 
 # Plotly Plots from Pre-Publication
 
-{% assign images = site.static_files | where_exp: "item", "item.path contains '/assets/images/'" | where_exp: "item", "item.extname == '.png' or item.extname == '.PNG'" %}
+{% assign images = site.static_files | where_exp: "item", "item.path contains '/assets/images/'" | where_exp: "item", "item.extname | downcase == '.png'" %}
+
 
 {% for image in images %}
   <div style="display: inline-block; margin: 10px;">
