@@ -4,9 +4,9 @@ title: My Plotly Plots
 permalink: /plots/
 ---
 
-# My Plots gallery
+# Plotly Plots from Pre-Publication
 
-{% assign images = site.static_files | where_exp: "item", "item.path contains '/assets/images/plots/'" | where_exp: "item", "item.extname == '.png'" %}
+{% assign images = site.static_files | where_exp: "item", "item.path contains '/assets/images/'" | where_exp: "item", "item.extname == '.png'" %}
 
 {% for image in images %}
   <div style="display: inline-block; margin: 10px;">
