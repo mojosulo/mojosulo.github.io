@@ -1,7 +1,7 @@
 ---
 layout: default
 title: My Plotly Plots
-permalink: /plots/
+permalink: "/plots/"
 ---
 
 # Plotly Plots from Pre-Publication
